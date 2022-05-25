@@ -1,0 +1,255 @@
+/* body{
+    background-color: aqua;
+} */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.log-img{
+    width: 250px;
+    /* height: 125px; */
+}
+header{
+    background-image:
+      url("/image/background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+nav{
+    background-color: rgb(22, 59, 22);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1.2rem 2.4rem black;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+}
+.log-img{
+    width: 70px;
+    /* height: 125px; */
+}
+.log-link{
+    text-decoration: none;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.nav-link,.nav-link:visited{
+    color: wheat;
+    transition: all 0.3s;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body{
+    font-family: 'Inter', sans-serif
+}
+.nav-btn{
+    background: white;
+    padding: 2.4rem 4.8rem;
+    border-radius: 0.8rem;
+    padding: 1.2rem 2.4rem;
+}
+.nav-link:hover,.nav-links:active{
+    color: rgba(255, 255, 0, 0.356);
+    cursor: pointer;
+}
+.nav-btn:hover,
+.nav-btn:visited{
+    padding: 2.4rem 4.8rem;
+    background: black;
+    transition:all 0.3s;
+    border-radius: 0.8rem;
+}
+.nav-btn:hover,
+.nav-btn:active{
+    background:yellowgreen;
+}
+.home-title{
+    text-align: center;
+    color: white;
+    font-size: 4.8rem;
+    font-weight: 900;
+    padding-top: 5rem ;
+    padding-bottom: 5rem;
+    text-shadow: 0 1.2rem 2.4rem rebeccapurple;
+}
+/* .home-paragraph{
+   color: aliceblue;
+   font-size: 1.8rem;
+   width: 75%;
+   padding: 3rem;
+   margin-left: 2rem;
+   background: wheat;
+   border-radius: 0.8rem;
+   box-shadow: 0 1.2rem 2.4rem black; 
+   margin-bottom: 1.8rem;
+} */
+
+.text{
+    width: 65%;
+    padding: 2rem;
+    margin-left: 2rem;
+    background: white;
+    position: relative;
+    height: 15rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1.2rem 2.4rem black;
+}
+.home-paragraph{
+    color: 3rem; 
+    font-size:1.8rem ;
+    margin-bottom: 3rem ; 
+    padding: 3rem; 
+}
+.home-btn{
+    color: white;
+    font-size: 1.8rem;
+    display: inline-block;
+    font-weight: 700;
+    box-shadow: 0 1.2rem 3.2rem black;
+    position: absolute;
+    bottom: 0.3rem;
+    background-color: rgba(137, 43, 226, 0.473);
+    padding: 1.2rem 3.2rem;
+    left: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+    transform: translate(-50%,-50%);
+}
+  .about-container,tours.container{
+     padding: 10rem 4rem;    
+ } 
+ /* .container{
+    margin: 0 auto;
+    width: 100px;
+ } */
+ .title{
+     text-align: center;
+     font-size: 4.2rem;
+     text-transform: uppercase;
+     background-image: linear-gradient(to right,rgba(26, 196, 111, 0.849)yellowgreen);
+     color: transparent;
+     padding-bottom: 5rem;
+     -webkit-background-clip: text;
+     background-color: lightblue;
+ }
+/* .about-text{
+     background: red;
+ }
+ .video{
+     height: 400px;
+     background-color:  green;
+ } */
+ .container{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 1.4rem;
+ } 
+ h4{
+     font-size: 1.8rem;
+     font-weight: 900;
+     color: aqua;
+ }
+
+
+ .about-paragraph{
+     font-size: 1.8rem;
+     color: black;
+     line-height: 1.5;
+     letter-spacing: 1px;
+ }
+ /* .toursection */
+ .tourscontainer{
+     background-color: #eee;
+ }
+ .main-card{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap: 3rem;
+ }
+ .card{
+     width: 30rem;
+     background-color: white;
+     box-shadow: 1rem 1.2rem 2.4rem rgba(0, 0, 0, 0.459);
+     border-radius: 0.8rem;
+     overflow: hidden;
+     transition: all 0.4s;
+      /* display: flex;
+     flex-direction: column;  */
+ }
+ .nav-btn{
+     display: flex;
+ }
+ .img-card{
+     width: 100%;
+     /* height: 50%; */
+     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+ }
+ .card:hover{
+     /* transform: translate(5px,-15px); */
+     transform: scale(1.1);
+ }
+ .card-content{
+     padding: 0rem 0.8rem 1.5rem;
+ }
+ .read-btn:link,
+ .read-btn:link{
+     display: flex;
+     margin:0rem 1rem 3rem 1rem;
+     align-items: center;
+     justify-content: center;
+     background-image: linear-gradient(to right,red blue);
+ }
+ .schedule-title{
+     font-size: 1.6rem;
+     color: rgba(255, 0, 0, 0.342);
+ }
+ .schedule-date{
+     font-size: 1.6rem;
+     padding: 0rem 0rem 2rem 2rem;
+ }
+ .tour-title{
+     font-size: 3.2rem;
+     text-transform: uppercase;
+     text-align: center;
+     background-image: linear-gradient(to right,#0c4772,yellow);
+     color: transparent;
+     font-weight: 900;
+     /* text-shadow: 0 0rem 1.2rem rgba(0, 10, 0, 0.733); */
+     -webkit-background-clip: text;
+ }
+ .tour-text{
+     font-size: 1.6rem;
+     padding: 1.8rem 1rem 0;
+     color: #555;
+ }
+ .place-number{
+     padding: 0rem 2rem 0rem 0rem;
+     /* display: flex;
+     gap: 0.8rem; */
+ }
+ .place-title,
+ .place{
+     text-align: right;
+     font-size: 1.6rem;
+ }
+ .place{
+     margin-left: 1rem;
+ }
