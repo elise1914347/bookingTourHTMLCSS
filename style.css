@@ -24,7 +24,7 @@ header{
     background-attachment: fixed;
 }
 nav{
-    background-color: rgba(0, 128, 0, 0.308);
+    background-color: rgb(45, 28, 61);
     padding: 3rem;
     display: flex;
     justify-content: space-around;
