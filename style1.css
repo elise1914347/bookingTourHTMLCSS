@@ -1,0 +1,51 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("/image/car.png") ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: buttom center;
+    color: white;
+    /* color: transparent;
+    -webkit-background-clip: text; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.form{
+    background:rgba(153, 205, 50, 0.575);
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 30px 50px;
+    gap: 2rem;
+    position: relative;
+    justify-items: center;
+padding: 3rem;
+padding-left: 18rem;
+gap: 2rem;
+justify-content: space-between;    
+gap: 4rem;
+background-color: rgb(47, 102, 84);
+align-items: center;
+}
+.input{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-bottom: 2px solid red;
+    background-color: #333;
+    color: wheat;
+    resize: none;
+    cursor: pointer;
+}
+
+

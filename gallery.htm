@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>website layout with image Gallery</title>
+        <style>
+            *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    background: gray;
+}
+.nav{
+    background: #594848;
+    width: 100%;
+    overflow: auto;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.li{
+    float: left;
+}
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background: #594848;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial;
+}
+nav. a:hover{
+background: skyblue;
+color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height:auto;   
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+footer{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background: #594848;
+    color:white;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+ display: block;
+ background-color: black;
+    font-size: 90px;
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li> <a href="" class="nav-link">Home</a></li>
+            <li> <a href="" class="nav-link">About-us</a></li>
+            <li> <a href="" class="nav-link">Contact-Us</a></li>
+            <li> <a href="" class="nav-link">Got-questions</a></li>
+            <li> <a href="" class="nav-link nav-btn">Gallery</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="home">
+                <h1 class="home-title">more photoes</h1>
+                <div class="text">
+                    <p class="home-paragraph">
+                        experience the Ultimate Rwandan Gorilla Mountain Tracking Safaris & Tours. Book Today. See Rwandan Mountain Gorillas on this Incredible Tracking Tour of Volcanoes National Park. Sustainable Tourism. Professionalism. Promoting Local Tourism. Full-Service Operator.
+                    </p>
+                    <a href="book.html" class="nav-btn home-btn">book Now</a>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+
+            <div class="gallery">
+                <img src="/image/car.png" alt="">
+                <div class="desc">KINIGI</div>
+            </div>
+            <div class="gallery">
+                <img src="/image/nation.png" alt="">
+                <div class="desc">culture</div>
+            </div>
+            <div class="gallery">
+                <img src="/image/people.png" alt="">
+                <div class="desc">people around Nyungwe</div>
+            </div>
+            <div class="gallery">
+                <img src="/image/giraffe.png" alt="">
+                <div class="desc">giraffe</div>
+            </div>
+            <div class="gallery">
+                <img src="/image/elephant.jpeg" alt="">
+                <div class="desc">Gorilla</div>
+            </div>
+            <div class="gallery">
+                <img src="/image/liooo.jpeg" alt="">
+                <div class="desc">Lion</div>
+            </div>
+        </div>
+        <footer>
+            All right reserved Web master
+        </footer>
+    </body>
+</html>
