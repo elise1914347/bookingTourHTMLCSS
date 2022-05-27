@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("/image/elisebc.jpg") ;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: buttom center;
+    color: white;
+    /* color: transparent;
+    -webkit-background-clip: text; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.form{
+    background: rgb(19, 17, 17);
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 30px 50px;
+    gap: 2rem;
+    position: relative;
+    justify-items: center;
+padding: 3rem;
+padding-left: 18rem;
+gap: 2rem;
+justify-content: space-between;    
+gap: 4rem;
+background-color: rgb(47, 102, 84);
+align-items: center;
+}
+.heading{
+    color: black;
+    padding-bottom: 4rem;
+    font-size: 4rem;
+}
+.input{
+    height: 30px;
+    flex: 0 0 200px;
+    margin: 8PX O;
+    padding: 12PX 12PX;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: aqua;
+    width: 100%;
+}
+
+
+    

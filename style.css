@@ -132,7 +132,7 @@ nav{
   .nav-btn:hover,
   .nav-link:active{background: rebeccapurple;
   }
-  .about-container,.tours.container{
+  .about-container,.tours-container{
      padding: 10rem 4rem;    
  } 
  /* title section */
@@ -217,6 +217,7 @@ outline: none;
      border-radius: 0.8rem;
      overflow: hidden;
      transition: all 0.4s;
+
       /* display: flex;
      flex-direction: column;  */
  }
@@ -233,7 +234,7 @@ outline: none;
      clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
  }
  .card-content{
-     padding: 0rem 0.8rem 1.5rem;
+     padding: 0rem 3rem 1.5rem;
  }
  .read-btn:link,
   .read-btn:link{
@@ -268,7 +269,7 @@ outline: none;
   .tour-text{
       font-size: 1.6rem;
   padding: 1.5rem 1rem 0rem;
-  color:rgb(14, 13, 13);
+  color:rgb(19, 13, 13);
   }
   .place-number{
       padding: 0rem 2rem 0rem 0rem;
@@ -284,5 +285,15 @@ outline: none;
   .h4{
       font-size: 1.8rem;
       font-weight: 900;
+      }
+      .book-now,
+      .book{
+          background-color:rgba(255, 255, 0, 0.507);
+          padding: 5rem 4rem;
+          display: flex;
+            gap: 2rem;
+      }
+      .min-padding-button{
+          padding-bottom: 2rem;
       }
  
